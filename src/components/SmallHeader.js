@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
-import { AiOutlineMenu, AiOutlineClose} from 'react-icons/Ai';
+import { AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
 import Nav from './Nav'
 import styles from "@/styles/style.module.css"
 import Hamburger from './Hamburger'
@@ -14,8 +14,8 @@ export default function SmallHeader() {
         <header className={`${styles.smallBanner} px-4 py-4 bg-sm-banner bg-primary bg-cover bg-center relative`}>
             {open ? <Hamburger /> : ''}
             <Nav />
-            <div className="fixed right-5 top-7 z-20 md:hidden cursor-pointer" onClick={ () => setOpen(!open) }>
-                <span className="text-secondary bg-primary px-2 py-2 rounded inline-block">
+            <div className="fixed z-20 cursor-pointer right-5 top-7 md:hidden" onClick={ () => setOpen(!open) }>
+                <span className="inline-block px-2 py-2 rounded text-secondary bg-primary">
                     {open ? <AiOutlineClose size='32px' color='#cfd0bf' /> : <AiOutlineMenu size='32px' color='#cfd0bf' /> }
                 </span>
             </div>
