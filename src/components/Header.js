@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import Image from 'next/image'
-import { FaBars} from 'react-icons/Fa';
-import { VscChromeClose} from 'react-icons/Vsc';
+import { AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
 import Nav from './Nav'
 import styles from "@/styles/style.module.css"
 import Hamburger from './Hamburger'
@@ -15,7 +14,7 @@ export default function Header() {
             <Nav />
             <div className="fixed z-20 cursor-pointer right-5 top-7 md:hidden" onClick={ () => setOpen(!open) }>
                 <span className="inline-block px-2 py-2 rounded text-secondary bg-primary">
-                    {open ? <VscChromeClose size='32px' color='#cfd0bf' /> : <FaBars size='32px' color='#cfd0bf' /> }
+                    {open ? <AiOutlineClose size='32px' color='#cfd0bf' /> : <AiOutlineMenu size='32px' color='#cfd0bf' /> }
                 </span>
             </div>
             <div className="mt-16 md:flex md:items-center md:justify-center md:h-full md:mt-0">
