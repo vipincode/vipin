@@ -143,7 +143,7 @@ export default function HomePage({data}) {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch(`${process.env.API_URL}/api`)
   const {skills, works} = await res.json() 
   return {
