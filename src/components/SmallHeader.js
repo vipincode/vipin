@@ -1,15 +1,14 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
-import { AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import Nav from './Nav'
 import styles from "@/styles/style.module.css"
 import Hamburger from './Hamburger'
-import SmallHeaderHeading from './SmallHeaderHeading';
+import SmallHeaderHeading from './SmallHeaderHeading'
 
 export default function SmallHeader() {
     const router = useRouter()
     const [open, setOpen] = useState(false);
-    // console.log(router.pathname);
     return (
         <header className={`${styles.smallBanner} px-4 py-4 bg-sm-banner bg-primary bg-cover bg-center relative`}>
             {open ? <Hamburger /> : ''}
