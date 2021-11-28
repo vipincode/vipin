@@ -23,7 +23,7 @@ export default function work({works}) {
     )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     const res = await fetch(`${process.env.API_URL}/api`)
     const {works} = await res.json() 
     return {

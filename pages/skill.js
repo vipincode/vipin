@@ -23,7 +23,7 @@ export default function skill({skills}) {
     )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     const res = await fetch(`${process.env.API_URL}/api`)
     const {skills} = await res.json() 
     return {
