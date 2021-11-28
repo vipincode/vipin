@@ -1,3 +1,4 @@
+import { API_URL } from '@/config/index'
 import Link from 'next/link'
 import Layout from "src/components/Layout"
 import Skills from "src/components/Skills"
@@ -144,7 +145,7 @@ export default function HomePage({data}) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch(`${process.env.API_URL}/api`)
+  const res = await fetch(`${API_URL}/api`)
   const {skills, works} = await res.json() 
   return {
     props: {

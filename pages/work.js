@@ -1,3 +1,4 @@
+import { API_URL } from '@/config/index'
 import Layout from "src/components/Layout"
 import WorkCard from "src/components/WorkCard"
 import Heading from "src/components/Heading"
@@ -24,7 +25,7 @@ export default function work({works}) {
 }
 
 export async function getServerSideProps() {
-    const res = await fetch(`${process.env.API_URL}/api`)
+    const res = await fetch(`${API_URL}/api`)
     const {works} = await res.json() 
     return {
       props: {
