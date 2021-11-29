@@ -13,23 +13,25 @@ export default function Footer() {
                    </Link>
                </div>
                <div className="mt-12 md:mt-0">
-                    <a href="/pdf/Vipin-Singh.pdf" download className="px-8 py-3 m-4 text-xl font-semibold border-2 rounded border-primary text-primary font-body">Download CV</a>
+                    <a href="/pdf/Vipin-Singh.pdf" download className="block px-8 py-3 m-4 text-xl font-semibold border-2 rounded border-primary text-primary font-body md:inline-block">Download CV</a>
                    <Link href="#contact">
-                       <a className="px-8 py-3 m-4 text-xl font-semibold border-2 rounded border-primary text-primary font-body">Let&#39;s Talk</a>
+                       <a className="block px-8 py-3 m-4 text-xl font-semibold border-2 rounded border-primary text-primary font-body md:inline-block">Let&#39;s Talk</a>
                    </Link>
                </div>
            </div>
-           <div className="pt-12 md:flex md:justify-between md:items-center md:pt-60">
-               <div>
+           <div className="flex flex-col items-center justify-between pt-12 md:flex-row md:pt-60">
+               <div className="order-last md:order-first">
                    <p className="m-4 font-light text-primary">&copy;{new Date().getFullYear()} allright reserved by vipin singh</p>
                </div>
-               <div className="md:flex">
-                   <Link href="/"><a className="m-4 font-light text-primary">Home</a></Link>
-                   <Link href="#"><a className="m-4 font-light text-primary">About</a></Link>
-                   <Link href="#"><a className="m-4 font-light text-primary">Work</a></Link>
-                   <Link href="#"><a className="m-4 font-light text-primary">Service</a></Link>
-                   <Link href="#"><a className="m-4 font-light text-primary">Blog</a></Link>
-                   <Link href="#"><a className="m-4 font-light text-primary">Contact</a></Link>
+               <div>
+                <div className="md:flex">
+                    <Link href="/"><a className="block m-4 font-light text-primary">Home</a></Link>
+                    <Link href="#"><a className="block m-4 font-light text-primary">About</a></Link>
+                    <Link href="#"><a className="block m-4 font-light text-primary">Work</a></Link>
+                    <Link href="#"><a className="block m-4 font-light text-primary">Service</a></Link>
+                    <Link href="#"><a className="block m-4 font-light text-primary">Blog</a></Link>
+                    <Link href="#"><a className="block m-4 font-light text-primary">Contact</a></Link>
+                </div>
                </div>
            </div>
         </div>

@@ -69,7 +69,7 @@ export default function HomePage({data}) {
             <div className="col-span-3">
               <div className="md:grid md:grid-cols-3">
                 <article>
-                  <h2 className="text-xl font-semibold font-body before:content-['hello'] before:block">Experiance</h2>
+                  <h2 className="mb-5 text-xl font-semibold font-body md:mb-0">Experiance</h2>
                 </article>
                 <div className="col-span-2">
                   <article className="pb-4 border-b border-solid border-secondary">
@@ -91,7 +91,7 @@ export default function HomePage({data}) {
               {/* Experiance */}
               <div className="mt-10 md:grid md:grid-cols-3">
                 <article>
-                  <h2 className="text-xl font-semibold font-body">Education</h2>
+                  <h2 className="mb-5 text-xl font-semibold font-body md:mb-0">Education</h2>
                 </article>
                 <div className="col-span-2">
                   <article className="pb-4 border-b-2 border-solid border-secondary">
@@ -113,16 +113,16 @@ export default function HomePage({data}) {
               {/* Educarton */}
             </div>
             <div>
-              <div>
+              <div className="mt-5 mb-5 md:mt-0 md:mb-0">
                 <h3 className="text-base font-bold font-body">GitHub Profile</h3>
                 <Link href="https://github.com/vipincode">
-                  <a  className="text-base font-body text-primary">View My GitHub Profile</a>
+                  <a  className="text-sm font-body text-primary">View My GitHub Profile</a>
                 </Link>
               </div>
-              <div className="my-4">
+              <div className="my-4 mb-5 md:mb-0">
                 <h3 className="text-base font-bold font-body">Linkedin Profile</h3>
                 <Link href="https://www.linkedin.com/in/vipinsingh32/">
-                  <a className="text-base font-body text-primary">View My Linkedin Profile</a>
+                  <a className="text-sm font-body text-primary">View My Linkedin Profile</a>
                 </Link>
               </div>
               {/* <h2>Whit I do?</h2> */}

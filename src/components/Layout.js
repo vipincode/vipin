@@ -20,8 +20,8 @@ export default function Layout({title, description, keywords, children}) {
             <main>
                 {children}
 
-                <section className="mt-32 border-t border-secondary pt-20 pb-5">
-                    <div className="container mx-auto px-4">
+                <section className="pt-20 pb-5 mt-32 border-t border-secondary">
+                    <div className="container px-4 mx-auto">
                     <Footer />
                     </div>
                 </section>

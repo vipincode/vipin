@@ -9,7 +9,7 @@ import Hamburger from './Hamburger'
 export default function Header() {
     const [open, setOpen] = useState(false);
     return (
-        <header className={`${styles.banner} ${styles.heding} px-4 py-4 bg-hero-banner bg-primary md:h-screen bg-cover bg-center relative`}>
+        <header className={`${styles.banner} px-4 py-4 bg-hero-banner bg-primary md:h-screen bg-cover bg-center relative`}>
             {open ? <Hamburger /> : ''}
             <Nav />
             <div className="fixed z-20 cursor-pointer right-5 top-7 md:hidden" onClick={ () => setOpen(!open) }>
