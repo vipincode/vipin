@@ -6,7 +6,7 @@
             "image": "/img/html.png",
             "title": "HTML language",
             "skill": "HTML",
-            "description": "I have design website structure with html, html5 also design email template."
+            "description": "I have designed a website structure with HTML, html5. And also email templates."
         },
         {
             "id": "2",
@@ -14,15 +14,15 @@
             "image": "/img/css.png",
             "title": "CSS language",
             "skill": "CSS",
-            "description": "I have ability style complete website layout using with css, using Flexbox & css Grid."
+            "description": "I can style the complete website layout using CSS, using Flexbox & CSS Grid."
         },
         {
             "id": "3",
             "slug": "skill00003",
             "image": "/img/bootstrap.png",
             "title": "Bootstrap framework",
-            "skill": "Bootstarp",
-            "description": "I design website with 3, 4, 5 and website is fully responsive and have browser compatibility."
+            "skill": "Bootstrap",
+            "description": "I design a website with versions 3, 4, 5, and the website is fully responsive and has browser compatibility."
         },
         {
             "id": "4",
@@ -30,7 +30,7 @@
             "image": "/img/scss.png",
             "title": "SCSS language",
             "skill": "SCSS",
-            "description": "I design any website with pre-processor, using DRY  and mobile first approach."
+            "description": "I design any website with a pre-processor, using DRY and a mobile-first approach."
         },
         {
             "id": "5",
@@ -38,7 +38,7 @@
             "image": "/img/javascript.png",
             "title": "Javascript language",
             "skill": "JavaScript",
-            "description": "I have skill JavaScript to design component for website and making website interactive."
+            "description": "I have the skill of JavaScript to design components for websites and make websites interactive."
         },
         {
             "id": "6",
@@ -46,7 +46,7 @@
             "image": "/img/jquery.png",
             "title": "Jquery library",
             "skill": "Jquery",
-            "description": "I often work with jquery to making website interactive and add pluging for website."
+            "description": "I often work with jquery to make the website interactive and add plugins for the website."
         },
         {
             "id": "7",
@@ -54,7 +54,7 @@
             "image": "/img/react.png",
             "title": "React library",
             "skill": "React",
-            "description": "I fully understand React JS also use React Bootstrap, Tailwinds CSS for creating component."
+            "description": "I fully understand React JS also use React Bootstrap, Tailwinds CSS for creating a component."
         },
         {
             "id": "8",
@@ -62,7 +62,7 @@
             "image": "/img/nextjs.png",
             "title": "Nest js framework",
             "skill": "Next js",
-            "description": "I using Next Js for Routing and creating pages with react and bind JSON."
+            "description": "I use Next Js for Routing and creating pages with react and bind JSON."
         },
         {
             "id": "9",
@@ -70,7 +70,7 @@
             "image": "/img/tailwind-css.png",
             "title": "Tailwind css",
             "skill": "Tailwind CSS",
-            "description": "I have skill Tailwind CSS to design component for website and making pages interactive."
+            "description": "I have the skill of Tailwind CSS to design components for websites and make pages interactive."
         },
         {
             "id": "10",
@@ -78,7 +78,7 @@
             "image": "/img/react-bootstrap.png",
             "title": "React Bootstrap",
             "skill": "React Bootstrap",
-            "description": "I have skill React Bootstrap to design component for website and making pages interactive."
+            "description": "I have the skill React Bootstrap to design components for websites and make pages interactive."
         },
         {
             "id": "11",
@@ -86,7 +86,7 @@
             "image": "/img/material-ui.png",
             "title": "Material UI",
             "skill": "Material UI",
-            "description": "I have skill Material UI to design component for website and making pages interactive."
+            "description": "I have the skill of Material UI to design components for websites and make pages interactive."
         },
         {
             "id": "12",
@@ -94,7 +94,7 @@
             "image": "/img/webpack.png",
             "title": "Webpack build tool",
             "skill": "Webpack",
-            "description": "I have skill Webpack a modern build for compile javascript, scss."
+            "description": "I have skill Webpack a modern build for compiling javascript, SASS."
         },
         {
             "id": "13",
@@ -102,7 +102,7 @@
             "image": "/img/gulp.png",
             "title": "Gulp js build tool",
             "skill": "Gulp js",
-            "description": "I have skill Gulp js a modern build for compile javascript, scss."
+            "description": "I have the skill of Gulp js, and modern build for compiling javascript, SASS."
         },
         {
             "id": "14",
@@ -110,7 +110,7 @@
             "image": "/img/photoshop.png",
             "title": "Adobe Photoshop",
             "skill": "Adobe Photoshop",
-            "description": "I often use photoshop for editing, inhencing, croping and mking PSD for web-layout."
+            "description": "I often use photoshop for editing, enhancing, cropping, and making PSD for web layout."
         },
         {
             "id": "15",
@@ -118,7 +118,7 @@
             "image": "/img/illustrator.png",
             "title": "Adobe Illustrator",
             "skill": "Adobe Illustrator",
-            "description": "I used illustor for creating icon making website layout and eding vector icons and much more."
+            "description": "I used illustrator for creating icon-making website layouts and editing vector icons, and much more."
         },
         {
             "id": "16",
@@ -126,7 +126,15 @@
             "image": "/img/adobe-xd.png",
             "title": "Adobe XD",
             "skill": "Adobe XD",
-            "description": "Adobe XD is used for creating website and mobile layout and also creating icons."
+            "description": "I am using Adobe XD to design a modern website layout, also design Figma to HTML."
+        },
+        {
+            "id": "17",
+            "slug": "skill00016",
+            "image": "/img/figma.png",
+            "title": "Figma Modfern Design Tool",
+            "skill": "Figma",
+            "description": "I am using Figma to design a modern website layout, also design Figma to HTML."
         }
     ],
     "works": [
@@ -148,7 +156,7 @@
             "p_title": "Diptimate main company website",
             "p_language": "HTML, SCSS, JavaScript",
             "p_url": "http://diptimate.com/",
-            "p_description": "Finnid Pro Offers - Company Registration, Private Limited, LLP, Nidhi Company Registration and Software, Register Trademarks online, GST Registration, and ITR Filling."
+            "p_description": "Diptimate Consultants Private Limited (DCPL) is an emerging IT enabling company with its LEG-IT concept patronage It is startup a startup of a Chartered Accountant creating real solutions."
         },
         {
             "p_id": "3",
@@ -158,7 +166,7 @@
             "p_title": "Qpick Services retailer, distributer website",
             "p_language": "HTML, SCSS, JavaScript",
             "p_url": "http://qpickservices.com/",
-            "p_description": "Finnid Pro Offers - Company Registration, Private Limited, LLP, Nidhi Company Registration and Software, Register Trademarks online, GST Registration, and ITR Filling."
+            "p_description": "Qpick services is India's most trusted & biggest Suvidha Kendra for GST and other support services Franchise, providers. Like - Tour & Travel, Agriculture, Business, Finance, Trademark, Education and more."
         },
         {
             "p_id": "4",
@@ -168,7 +176,7 @@
             "p_title": "Unisex Salon website",
             "p_language": "HTML, SCSS, JavaScript",
             "p_url": "http://website.qpickservices.com/ap/",
-            "p_description": "Finnid Pro Offers - Company Registration, Private Limited, LLP, Nidhi Company Registration and Software, Register Trademarks online, GST Registration, and ITR Filling."
+            "p_description": "Unisex Salon Hair treatment that makes your hair straight, sleek and shiny. The treatment is suggested for women with voluminous and unmanageable hair. Include first wash."
         }
     ]
 }

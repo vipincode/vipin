@@ -21,7 +21,7 @@ export default function Footer() {
            </div>
            <div className="flex flex-col items-center justify-between pt-12 md:flex-row md:pt-60">
                <div className="order-last md:order-first">
-                   <p className="m-4 font-light text-primary">&copy;{new Date().getFullYear()} allright reserved by vipin singh</p>
+                   <p className="m-4 font-light text-primary">&copy;{new Date().getFullYear()} all rights reserved by vipin singh.</p>
                </div>
                <div>
                 <div className="md:flex">
