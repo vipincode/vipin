@@ -5,9 +5,9 @@ export default function Works({works}) {
     return (
         <Link href={works.p_url}>
             <a>
-                <div className="rounded border-4 border-gray overflow-hidden">
+                <div className="mb-5 overflow-hidden border-4 rounded md:mb-0 border-gray">
                     <div className="leading-none origin-center">
-                        <Image className="transform hover:scale-110 transition-transform duration-500 ease-in-out" src={works.p_image} alt={works.p_title} width={800} height={420} />
+                        <Image className="transition-transform duration-500 ease-in-out transform hover:scale-110" src={works.p_image} alt={works.p_title} width={800} height={420} />
                     </div>
                 </div>
             </a>

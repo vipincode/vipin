@@ -131,6 +131,7 @@ export default function HomePage({data}) {
           </div>
         </div>
       </section>
+      {/* Experiance */}
 
       <section id="contact" className="mt-20">
         <div className="container px-4 mx-auto">

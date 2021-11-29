@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Hamburger() {
     return (
-        <div className="bg-secondary py-8 px-8 fixed top-0 left-0 w-72 h-full z-10">
+        <div className="fixed top-0 left-0 z-10 h-full px-8 py-8 bg-secondary w-72">
             <div className="mb-4">
                 <Image src="/img/footer-logo.png" alt="Mobile log" width={171} height={50} />
             </div>
@@ -24,9 +24,9 @@ export default function Hamburger() {
                     <a className="block py-3 text-2xl uppercase font-display">Blog</a>
                 </Link>
             </div>
-            <Link href="#">
-                <a className="bg-primary px-6 py-3 rounded-md text-secondary text-xl font-medium mt-24 text-center block">Download CV</a>
-            </Link>
+            <div>
+                <a href="/pdf/Vipin-Singh.pdf" download className="block px-6 py-3 mt-24 text-xl font-medium text-center rounded-md bg-primary text-secondary">Download CV</a>
+            </div>
         </div>
     )
 }
