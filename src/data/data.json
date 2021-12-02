@@ -161,12 +161,12 @@
         {
             "p_id": "3",
             "slug": "works0003",
-            "p_name": "Qpick Services",
-            "p_image": "/img/qpick.png",
-            "p_title": "Qpick Services retailer, distributer website",
+            "p_name": "Hanu Ngo",
+            "p_image": "/img/ngo.png",
+            "p_title": "HANU NGO Website",
             "p_language": "HTML, SCSS, JavaScript",
-            "p_url": "http://qpickservices.com/",
-            "p_description": "Qpick services is India's most trusted & biggest Suvidha Kendra for GST and other support services Franchise, providers. Like - Tour & Travel, Agriculture, Business, Finance, Trademark, Education and more."
+            "p_url": "https://hanu-ngo.netlify.app/",
+            "p_description": "HANU NGO Vestibulum fermentum lobortis cursus. Mauris ante leo, tempor vel justo id, eleifend molestie nisi. Fusce ac mi accumsan, imperdiet ante nec, venenatis tellus. Nunc et rhoncus turpis."
         },
         {
             "p_id": "4",
@@ -175,8 +175,77 @@
             "p_image": "/img/salon.png",
             "p_title": "Unisex Salon website",
             "p_language": "HTML, SCSS, JavaScript",
-            "p_url": "http://website.qpickservices.com/ap/",
+            "p_url": "https://ap-square.netlify.app/",
             "p_description": "Unisex Salon Hair treatment that makes your hair straight, sleek and shiny. The treatment is suggested for women with voluminous and unmanageable hair. Include first wash."
+        },
+        {
+            "p_id": "5",
+            "slug": "works0005",
+            "p_name": "pradeep blog",
+            "p_image": "/img/pr-blog.png",
+            "p_title": "Pradeep Blog",
+            "p_language": "HTML, SCSS, JavaScript",
+            "p_url": "https://pradeepblog.netlify.app/",
+            "p_description": "Pradeep Blog Vestibulum fermentum lobortis cursus. Mauris ante leo, tempor vel justo id, eleifend molestie nisi. Fusce ac mi accumsan, imperdiet ante nec, venenatis tellus. Nunc et rhoncus turpis."
+        },
+        {
+            "p_id": "6",
+            "slug": "works0006",
+            "p_name": "all india travel",
+            "p_image": "/img/allindia-travel.png",
+            "p_title": "All India Travel Website",
+            "p_language": "HTML, SCSS, JavaScript",
+            "p_url": "https://allindiatravels.netlify.app/",
+            "p_description": "All India Travel Vestibulum fermentum lobortis cursus. Mauris ante leo, tempor vel justo id, eleifend molestie nisi. Fusce ac mi accumsan, imperdiet ante nec, venenatis tellus. Nunc et rhoncus turpis."
+        },
+        {
+            "p_id": "7",
+            "slug": "works0007",
+            "p_name": "Screw Pages",
+            "p_image": "/img/scews.png",
+            "p_title": "Screw Website",
+            "p_language": "HTML, SCSS, JavaScript",
+            "p_url": "https://screw-web.netlify.app/",
+            "p_description": "Screw id mollis nisl. Vestibulum fermentum lobortis cursus. Mauris ante leo, tempor vel justo id, eleifend molestie nisi. Fusce ac mi accumsan, imperdiet ante nec, venenatis tellus. Nunc et rhoncus turpis."
+        },
+        {
+            "p_id": "8",
+            "slug": "works0008",
+            "p_name": "Max Holiday",
+            "p_image": "/img/max-holiday.png",
+            "p_title": "Max Holiday Website",
+            "p_language": "HTML, SCSS, JavaScript",
+            "p_url": "https://max-hilday.netlify.app/",
+            "p_description": " We believe that life itself is a beautiful journey and in order to live it at its full exploring new places and meeting with people of different culture and values is essential. "
+        },
+        {
+            "p_id": "9",
+            "slug": "works0009",
+            "p_name": "Qpick Services",
+            "p_image": "/img/qpick.png",
+            "p_title": "Qpick Services retailer, distributer website",
+            "p_language": "HTML, SCSS, JavaScript",
+            "p_url": "http://qpickservices.com/",
+            "p_description": "Qpick services is India's most trusted & biggest Suvidha Kendra for GST and other support services Franchise, providers. Like - Tour & Travel, Agriculture, Business, Finance, Trademark, Education and more."
+        },{
+            "p_id": "10",
+            "slug": "works0010",
+            "p_name": "Qpick Services",
+            "p_image": "/img/qpick-serv.png",
+            "p_title": "Qpick Services",
+            "p_language": "HTML, SCSS, JavaScript",
+            "p_url": "https://qpick-services.netlify.app/",
+            "p_description": "Qpick id mollis nisl. Vestibulum fermentum lobortis cursus. Mauris ante leo, tempor vel justo id, eleifend molestie nisi. Fusce ac mi accumsan, imperdiet ante nec, venenatis tellus. Nunc et rhoncus turpis."
+        },
+        {
+            "p_id": "11",
+            "slug": "works0011",
+            "p_name": "Foundation",
+            "p_image": "/img/foundation.png",
+            "p_title": "Foundation Services",
+            "p_language": "HTML, SCSS, JavaScript",
+            "p_url": "https://foundation-web.netlify.app/",
+            "p_description": "Foundation mollis nisl. Vestibulum fermentum lobortis cursus. Mauris ante leo, tempor vel justo id, eleifend molestie nisi. Fusce ac mi accumsan, imperdiet ante nec, venenatis tellus. Nunc et rhoncus turpis."
         }
     ]
 }
